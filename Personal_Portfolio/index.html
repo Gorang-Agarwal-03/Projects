@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+</head>
+<body>
+   <div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/Gorang-removebg-preview.png" class="logo">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#contact">Contact </a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Student</p>
+            <h1>Hi, I'm <span>Gorang</span><br>Agarwal from India</h1>
+        </div>
+    </div>
+   </div>
+
+   <!----------------About Us--------------------->
+   <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/IMG-20201230-WA0001.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I'm a passionate and driven Computer and Engineering student currently in my second year, with a strong interest in software development and machine learning. I enjoy turning complex problems into simple, efficient solutions through code.With hands-on experience in Python and Java,
+                    I've built projects that demonstrate my understanding of algorithms, object-oriented programming, and clean coding principles. I also have practical skills in web development and database management, and I'm continuously exploring new technologies to grow as a developer.
+                    I'm excited about building impactful software, collaborating with like-minded individuals, and learning from real-world challenges. Whether it's a personal project or a team-based application, I approach every task with curiosity, precision, and a desire to innovate.
+                </p>
+                <div class="table-title">
+                    <p class="tab-link active_link " onclick="opentab('skills')">skills</p>
+                    <p class="tab-link"onclick="opentab('Internship')">Internship</p>
+                    <p class="tab-link"onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-containts active_tab" id="skills">
+                    <ul>
+                        <li><span>Web development</span><br>Web App Development</li>
+                        <li><span>Java</span><br>For BackEnd</li>
+                        <li><span>React</span><br> Single Page Web App Development</li>
+                    </ul>
+                </div>
+                <div class="tab-containts" id="Internship">
+                    <ul>
+                        <li><span>Ai:Transformative</span><br>Learning how Ai ML is used in real-world</li>
+                        <li><span>Cybersecurity Analyst</span><br>Done small project on how<b>TATA</b> maintain there Cybersecurity </li>
+                    </ul>
+                </div>
+                <div class="tab-containts" id="Education">
+                    <ul>
+                        <li><span>2022-2026</span><br>B-tech (CSE)</li>
+                        <li><span>2021-2022</span><br>12th from St Paul's School</li>
+                        <li><span>2019-2020</span><br> 10th from St Paul's School</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+
+   <!--------------------Project------------------>
+   <div class="projects" id="project">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="project-list">
+            <div>
+                <h2>Email-Spam-Detector</h2>
+                <p>The goal is to use machine learning algorithms to build a classifier. 
+                    After successful training and testing, the model can be deployed in 
+                    an email system. You can create a simple application where the user 
+                    inputs an email, and the model predicts whether it's spam or non
+                    spam. Additionally, this system can be integrated into email clients 
+                    for real-time spam filtering.</p>
+                    <br>
+                    <a href="https://github.com/Gorang-Agarwal-03/Email_Spam_Classification" target="_blank" class="for_color"> Source Code</a>
+            </div>
+             <div>
+                <h2>Simon Game</h2>
+                <p>Memory-based web game | HTML, CSS, JavaScript<br><br>
+                    Developed a browser-based version of the classic Simon memory game.
+                    Implemented interactive UI with real-time color and sound feedback,
+                    sequence generation, and user input validation. Used JavaScript to manage game logic,
+                    dynamic difficulty progression, and responsive event handling. Enhanced user engagement
+                    through intuitive design and smooth gameplay experience.</p>
+                    <br>
+                    <a href="https://github.com/Gorang-Agarwal-03/Projects/tree/main/Simon_Game"target="_blank" class="for_color"> Source Code</a>
+            </div>
+             <div>
+                <h2>PassWord Generator</h2>
+                <p>React-based security utility | React, JavaScript, CSS<br><br>
+                    Developed a dynamic password generator using React,
+                    featuring customizable options for length, character types
+                    (uppercase, lowercase, numbers, symbols), and real-time strength feedback.
+                    Utilized React hooks for state management and component-based architecture 
+                    for modular, reusable UI. Integrated clipboard copy functionality and responsive 
+                    design to ensure usability across devices.</p>
+                    <br>
+                    <a href="https://github.com/Gorang-Agarwal-03/React_projects/tree/main/PasswordGenerator"target="_blank" class="for_color"> Source Code</a>
+            </div>
+             <div>
+                <h2>BackGround Changer</h2>
+                <p>Interactive UI tool | React, JavaScript, CSS <br><br>
+                    Built a React-based background changer application that allows 
+                    users to dynamically update the background color or image of a web page 
+                    through user interaction. Utilized React hooks for state management and designed
+                    a clean, responsive interface to enhance user experience. Focused on real-time UI 
+                    updates, event handling, and component-driven development.</p>
+                    <br>
+                    <a href="https://github.com/Gorang-Agarwal-03/React_projects/tree/main/bgChanger"target="_blank" class="for_color"> Source Code</a>
+            </div>
+             <div>
+                <h2>Responsive Web Page with Movable Sidebar</h2>
+                <p>Front-end layout project | HTML, CSS <br><br>
+                    Designed and developed a responsive landing page featuring a 
+                    movable (collapsible/expandable) sidebar using pure HTML and CSS. 
+                    Implemented smooth transitions, hover effects, and a clean layout to enhance 
+                    usability and visual appeal. Focused on responsive design principles to ensure 
+                    compatibility across devices without using JavaScript.</p>
+                    <br>
+                    <a href="https://github.com/Gorang-Agarwal-03/Projects/tree/main/First"target="_blank" class="for_color"> Source Code</a>
+            </div>
+        </div>
+
+    </div>
+   </div>
+
+<!------------------CONTACT US-------------------->
+   <div class="Contact" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>agarwalgorang@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>8445891558</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/Resume Gorang Agarwal.pdf.pdf" download class="btn">CV/Resume</a>
+            </div>
+             <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="E-mail" placeholder="Your E-mail" required>
+                    <textarea name="Message" rows="6" placeholder="Write Your message"></textarea>
+                    <button type="submit" class="btn">submit</button>
+                </form>
+             </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Copyright &#169; Gorang . Personal Portfolio</p>
+    </div>
+   </div>
+
+
+     <script src="app.js"></script> 
+</body>
+</html>
